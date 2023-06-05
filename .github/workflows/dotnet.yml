@@ -25,7 +25,7 @@ jobs:
           dotnet-version: 6.0.x
       - name: Installed dependencies
         run: dotnet restore
-        # working-directory: what
+        working-directory: ci_cd/git_actions.csproj
       - name: Build
         run: dotnet build --no-restore
       - name: Test
