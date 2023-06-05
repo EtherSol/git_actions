@@ -22,7 +22,7 @@ jobs:
         dotnet-version: 6.0.x
     - name: Installed dependencies
       run: dotnet restore
-      working-directory: git-actions/ci_cd/
+      working-directory: hi
     - name: Build
       run: dotnet build --no-restore
     - name: Test
