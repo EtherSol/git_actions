@@ -24,7 +24,7 @@ jobs:
       with:
         dotnet-version: 6.0.x
 
-<<<<<<< Updated upstream
+
     - uses: actions/checkout@v3
     - name: Restore dependencies
       run: dotnet restore
@@ -32,15 +32,4 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-=======
-      - name: Display dotnet version
-        run: dotnet --version
-      - name: Installed dependencies
-        # working-directory: git_actions.csproj
-        run: dotnet restore
 
-      - name: Build
-        run: dotnet build --no-restore
-      - name: Test
-        run: dotnet test --no-build --verbosity normal
->>>>>>> Stashed changes
