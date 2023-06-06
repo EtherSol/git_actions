@@ -11,3 +11,4 @@ https://github.com/orgs/community/discussions/25742
 
 References to Visual Studio Code dependencies for ASP.NET (creating files and extentions)
 https://www.syncfusion.com/blogs/post/how-to-develop-an-asp-net-core-application-using-visual-studio-code.aspx
+
