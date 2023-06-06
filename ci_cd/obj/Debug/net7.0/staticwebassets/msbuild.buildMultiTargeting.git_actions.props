@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/git_actions.props" />
-</Project>
