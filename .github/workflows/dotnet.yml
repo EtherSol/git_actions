@@ -27,7 +27,7 @@ jobs:
       - name: Display dotnet version
         run: dotnet --version
       - name: Installed dependencies
-        working-directory: git_actions.csproj
+        #working-directory: git_actions.csproj
         run: dotnet restore
 
       - name: Build
