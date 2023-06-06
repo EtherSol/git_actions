@@ -33,4 +33,5 @@ jobs:
       working-directory: ci_cd/play_action
     - name: Test
       run: dotnet test --no-build --verbosity normal
+      working-directory: ci_cd/play_action
 
