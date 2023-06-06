@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
 
     steps:
       - run: echo "The ${{ github.repository }} repository has been cloned to the runner."
@@ -24,7 +24,7 @@ jobs:
         with:
           dotnet-version: 6.0.x
       - name: Installed dependencies
-        # working-directory: ci_cd/git_actions.csproj
+        working-directory: ci_cd/git_actions.csproj
         run: dotnet restore
 
       - name: Build
