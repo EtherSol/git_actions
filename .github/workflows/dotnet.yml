@@ -26,6 +26,9 @@ jobs:
 
 
     - uses: actions/checkout@v3
+    - name: Install dependencies
+      run: dotnet restore
+      working-directory: ci_cd/play_action
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
