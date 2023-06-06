@@ -1,6 +1,9 @@
 # git_actions
 Working with .yaml files and git-actions to automate the CI deliveries 
 
+Here:
+https://www.youtube.com/watch?v=MQ00HufXJtY&ab_channel=Motiversity
+
 Reference to Github Actions for Directory paths:
 https://github.com/orgs/community/discussions/25742
 
