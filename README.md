@@ -4,7 +4,7 @@ Working with .yaml files and git-actions to automate the CI deliveries
 <h6>Watch this everyday: </h6>
 https://www.youtube.com/watch?v=MQ00HufXJtY&ab_channel=Motiversity
 
-<br> <br> <br>
+<br> <br> 
 
 Reference to Github Actions for Directory paths:
 https://github.com/orgs/community/discussions/25742
