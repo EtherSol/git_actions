@@ -30,6 +30,7 @@ jobs:
       working-directory: ci_cd/play_action
     - name: Build
       run: dotnet build --no-restore
+      working-directory: ci_cd/play_action
     - name: Test
       run: dotnet test --no-build --verbosity normal
 
