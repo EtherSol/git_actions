@@ -24,7 +24,7 @@ jobs:
         with:
           dotnet-version: 6.0.x
       - name: Installed dependencies
-        working-directory: ci_cd/
+        working-directory: ci_cd/hello
         run: dotnet restore
 
       - name: Build
